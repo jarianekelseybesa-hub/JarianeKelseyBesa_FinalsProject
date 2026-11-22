@@ -1,0 +1,516 @@
+
+/* =================================
+   GENERAL WEBSITE DESIGN
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    background-color: #dff3fb;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dff3fb;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+    overflow-x: hidden;
+}
+
+
+/* =================================
+   NAVIGATION BAR
+================================= */
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: transparent !important;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 45px;
+    padding: 15px 5%;
+    background: transparent !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4285a5;
+}
+
+
+/* =================================
+   HOME SECTION
+================================= */
+
+.home {
+    min-height: 550px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 90px 8% 50px;
+    position: relative;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+.home-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home-text h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.home-text h2 {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+
+/* =================================
+   ABOUT ME SECTION
+================================= */
+
+.about {
+    min-height: 420px;
+    padding: 40px 12%;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-content p {
+    width: 65%;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about-content img {
+    width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/* =================================
+   SKILLS SECTION
+================================= */
+
+.skills {
+    min-height: 550px;
+    padding: 40px 8%;
+}
+
+.skills h2 {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    overflow: visible;
+}
+
+.skill-content {
+    width: 180px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.skill-content img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.skill-preview {
+    width: 90px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.skill-preview img {
+    width: 120px;
+    height: 130px;
+    object-fit: contain;
+    opacity: 0.85;
+}
+
+.skill-content h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.skill-content p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* =================================
+   SKILLS CAROUSEL ARROWS
+================================= */
+
+.arrow {
+    width: 110px;
+    height: 100px;
+    background: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+    flex-shrink: 0;
+    padding: 0;
+    margin-top: 35px;
+    transition: color 0.3s ease;
+}
+
+/* Create the two diagonal lines */
+
+.arrow::before,
+.arrow::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 110px;
+    height: 1.5px;
+    background: currentColor;
+    transform-origin: right center;
+    transition: background 0.3s ease;
+}
+
+/* Upper diagonal line */
+
+.arrow::before {
+    transform: rotate(25deg);
+}
+
+/* Lower diagonal line */
+
+.arrow::after {
+    transform: rotate(-25deg);
+}
+
+/* LEFT ARROW */
+
+.arrow.left {
+    transform: scaleX(-1);
+}
+
+/* RIGHT ARROW */
+
+.arrow.right {
+    transform: none;
+}
+
+/* HOVER EFFECT */
+
+.arrow:hover {
+    color: #4285a5;
+}
+
+.arrow.left:hover {
+    transform: scaleX(-1) scale(1.08);
+}
+
+.arrow.right:hover {
+    transform: scale(1.08);
+}
+
+
+/* =================================
+   CONTACTS SECTION
+================================= */
+
+.contacts {
+    min-height: 400px;
+    text-align: center;
+    padding: 45px 20px 80px;
+}
+
+.contacts h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contacts p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 23px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+    background: #155477;
+}
+
+.social-icons img {
+    width: 66px;
+    height: 66px;
+    object-fit: contain;
+}
+
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+@media screen and (max-width: 768px) {
+
+    /* NAVIGATION */
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 10px;
+        flex-wrap: nowrap;
+    }
+
+    nav a {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+
+    /* HOME */
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 20px;
+        gap: 25px;
+    }
+
+    .logo img {
+        width: 220px;
+        height: auto;
+    }
+
+    .home-text {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .home-text h1 {
+        font-size: 20px;
+    }
+
+    .home-text h2 {
+        font-size: 16px;
+    }
+
+
+    /* ABOUT ME */
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .about-content p {
+        width: auto;
+        flex: 1;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .about-content img {
+        width: 110px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        padding: 40px 20px;
+        text-align: left;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .skill-content {
+        width: 135px;
+        flex-shrink: 1;
+        text-align: center;
+    }
+
+    .skill-content img {
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+        margin-bottom: 12px;
+    }
+
+    .skill-preview {
+        width: 45px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .skill-preview img {
+        width: 60px;
+        height: 70px;
+        object-fit: contain;
+        opacity: 0.8;
+    }
+
+    .skill-content h3 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .skill-content p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+
+    /* MOBILE SKILLS ARROWS */
+
+    .arrow {
+        width: 35px;
+        height: 70px;
+        margin-top: 30px;
+    }
+
+    .arrow::before,
+    .arrow::after {
+        width: 35px;
+        height: 1.2px;
+    }
+
+
+    /* CONTACTS */
+
+    .contacts {
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    .contacts h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .contacts p {
+        max-width: 450px;
+        margin: 0 auto 35px;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        width: 55px;
+        height: 55px;
+    }
+
+    .social-icons img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;
+    }
+}
