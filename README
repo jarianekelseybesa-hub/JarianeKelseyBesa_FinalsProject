@@ -1,0 +1,77 @@
+# Personal Portfolio Website
+
+## Project Information
+
+- **Project Title:** Personal Portfolio Website
+- **Student Name:** Jariane Kelsey C. Besa
+- **Section:** BSCS-2A
+- **Project Type:** Final Project
+
+## Project Description
+
+This project is a personal portfolio website created to introduce myself, showcase my skills, and provide my contact information. It is designed with a responsive layout so visitors can access it using desktop and mobile devices.
+
+## Objectives
+
+- Create a functional personal portfolio website.
+- Introduce myself through an About Me section.
+- Showcase my skills using an interactive image carousel.
+- Provide contact information and social media links.
+- Apply responsive web design for different screen sizes.
+
+## Website Features
+
+1. **Home** – Displays my portfolio logo and title.
+2. **About Me** – Presents information about myself.
+3. **Skills** – Displays my skills through an interactive carousel.
+4. **Contacts** – Provides my contact information and social media links.
+5. **Responsive Design** – Adjusts the website layout for desktop and mobile screens.
+6. **Sticky Navigation** – Allows visitors to navigate between sections while scrolling.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- GitHub Pages
+
+## How to View the Website
+
+Visit the deployed website:
+
+[Personal Portfolio Website](https://jarianekelsey-besa-hub.github.io/JarianeKelseyBesa_FinalsProject/)
+
+To run it locally, open `index.html` using a web browser.
+
+## AI Tools and Contributions
+
+ChatGPT was used as an AI-assisted development tool to help with website structure, CSS styling, JavaScript functionality, responsive design, debugging, and deployment guidance.
+
+I reviewed and tested the suggested code, made adjustments, and organized the project files.
+
+The prompts and development process are documented in `PROMPT_LOG.md`.
+
+## Testing and Corrections
+
+The website was tested on desktop and mobile views.
+
+Corrections and improvements included:
+- Adjusting the Home section layout for mobile screens.
+- Positioning the mobile navigation bar on the right while keeping it sticky.
+- Improving the responsive layout of the About Me section.
+- Adjusting the Skills carousel images and navigation arrows.
+- Checking the Contacts section and social media icons.
+
+## Known Limitations
+
+The website is a static personal portfolio. Its content and images must be updated manually through the project files.
+
+## Screenshots
+
+Screenshots of the website, responsive layouts, and GitHub deployment evidence are stored in the `Screenshots` folder.
+
+## Credits
+
+- Website design and development: Jariane Kelsey Besa
+- AI development assistance: ChatGPT

@@ -1,0 +1,159 @@
+# AI Prompt Log
+
+## Project: Personal Portfolio Website
+
+**Student:** Jariane Kelsey Besa
+
+**AI Tool Used:** ChatGPT
+
+---
+
+## Entry 1: Initial Website Development
+
+**Technique/Framework:** Task specification and step-by-step prompting
+
+**Purpose:** To create a functional personal portfolio website based on the instructor's project requirements.
+
+**Initial Task (summary):**
+
+Create a functional personal portfolio website based on the provided assignment instructions.
+
+**Additional Prompts:**
+
+- "Give me one by one like the codes because I also want to learn it step by step. Just guide me."
+- "where do I create index.html?"
+- "can I possibly insert the pictures by myself? Just teach me on how to do it later."
+
+**Result Summary:**
+
+ChatGPT guided me through creating the HTML, CSS, and JavaScript files and organizing the website structure.
+
+**Evaluation:**
+
+The step-by-step instructions helped me understand how to create the website instead of simply copying the code.
+
+---
+
+## Entry 2: Website Design and Visual Improvements
+
+**Technique/Framework:** Iterative prompting and refinement
+
+**Purpose:** To improve the website's appearance and make it closer to the required portfolio mockup.
+
+**Prompts and Requests:**
+
+- Requested adjustments to the navigation bar and website background.
+- Requested improvements to the Home and About Me sections.
+- Asked for the background and images to blend properly with the overall design.
+- Requested the complete revised code when several design changes were needed.
+
+**Result Summary:**
+
+The website's visual appearance was improved through several CSS adjustments. The background, navigation bar, logo, profile picture, and section layouts were refined.
+
+**Evaluation:**
+
+I checked the results in the browser and requested further corrections whenever the output did not match my intended design.
+
+---
+
+## Entry 3: Skills Carousel Improvements
+
+**Technique/Framework:** Iterative prompting and visual refinement
+
+**Purpose:** To improve the appearance and functionality of the Skills carousel.
+
+**Actual Prompts:**
+
+- "can you adjust the size of the arrows in skill section make it a bit bigger and the lines a bit thinner"
+- "in the carousel can the prev. and next image be visible even when you are currently showing the current image, so that you can just see the next picture, because that is what my portfolio visualize"
+- "can you adjust the pictures in the skills section again, just add a liitle bit"
+
+**Result Summary:**
+
+The Skills carousel was adjusted to display the current image together with previews of the previous and next images. The navigation arrows and image sizes were also improved.
+
+**Evaluation:**
+
+I tested the carousel and checked whether the images and arrows matched my portfolio design.
+
+---
+
+## Entry 4: Responsive Website Design
+
+**Technique/Framework:** Iterative prompting and device testing
+
+**Purpose:** To make the portfolio accessible on different screen sizes while maintaining the intended desktop design.
+
+**Actual Prompts:**
+
+- "I'm good with the result, my only problem is the responsiveness to different devices, can I deploy it first in github and check it on my phone, if I'm not satisfied can you help me fix it again?"
+- "can I try it in my phone?"
+- "in desktop it's good you don't have to change anything to that, only in mobile view the logo is centered which it needs to be in left like in my mockup and the title is in right side."
+
+**Result Summary:**
+
+The CSS was adjusted to improve the website's appearance on mobile devices. The Home section was arranged with the logo on the left and the portfolio title centered on the right. The mobile navigation bar was also aligned to the right while remaining sticky.
+
+**Evaluation:**
+
+I tested the website using my mobile phone and requested further adjustments until the layout matched my intended mockup.
+
+---
+
+## Entry 5: GitHub Deployment
+
+**Technique/Framework:** Step-by-step instructional prompting
+
+**Purpose:** To upload the portfolio project to GitHub and publish it using GitHub Pages.
+
+**Actual Prompt:**
+
+"can I deploy this first in github and just help me later if I decided to add those?"
+
+**Additional Requests:**
+
+- "Now let's deploy it in github"
+- Asked for guidance on uploading the project files through Git Bash.
+- Asked how to organize screenshots in the project folder.
+- Asked about the purpose of README.md and PROMPT_LOG.md.
+
+**Result Summary:**
+
+ChatGPT guided me through initializing Git, creating commits, connecting my local project to my GitHub repository, pushing the files, and enabling GitHub Pages.
+
+**Evaluation:**
+
+The portfolio was successfully uploaded and published online. I was also able to open and test the website using my mobile phone.
+
+---
+
+## Entry 6: Final Corrections and Documentation
+
+**Technique/Framework:** Iterative refinement and documentation prompting
+
+**Purpose:** To finalize the website and organize the required project documentation.
+
+**Requests:**
+
+- Requested a complete revised CSS file to correct the mobile Home section and navigation bar.
+- Asked for guidance on creating README.md and PROMPT_LOG.md.
+- Asked how to organize screenshots as evidence of the completed project.
+
+**Result Summary:**
+
+The final mobile layout was corrected while preserving the desktop design. Documentation files and a screenshot folder were also prepared for the GitHub repository.
+
+**Evaluation:**
+
+I reviewed the final website and confirmed that I was satisfied with the desktop and mobile layouts.
+
+---
+
+## Reflection
+
+Using ChatGPT helped me throughout the development of my personal portfolio website. I learned how to organize HTML, CSS, and JavaScript files, improve website responsiveness, create an interactive Skills carousel, troubleshoot design issues, and deploy a website using GitHub Pages.
+
+I also learned the importance of giving clear instructions and testing the generated code. Instead of accepting every suggestion immediately, I checked the results and requested corrections whenever necessary.
+
+Through this project, I gained a better understanding of website development and how AI tools can assist in the learning and development process.
